@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planes de Precios</title>
+    <link rel="stylesheet" href="fabricio.css">
+</head>
+<body>
+    <div class="pricing-container">
+        <h2>Nuestros Precios</h2>
+        <div class="toggle-container">
+            <span>Anual</span>
+            <input type="checkbox" id="toggle" onclick="togglePricing()">
+            <span>Mensual</span>
+        </div>
+        <div class="pricing-table">
+            <div class="pricing-card">
+                <h3>Paquete Básico</h3>
+                <p class="price" id="basic-price">$35.99</p>
+                <ul>
+                  
+                    <li>Acceso a Netflix y Disney+.</li>
+                </ul>
+                <button>Más Información</button>
+            </div>
+            <div class="pricing-card">
+                <h3>Paquete Premiun</h3>
+                <p class="price" id="professional-price">$65.99</p>
+                <ul>
+                 
+                    <li>Acceso completo a todas las plataformas principales.</li>
+                </ul>
+                <button>Más Información</button>
+            </div>
+            <div class="pricing-card">
+                <h3>Paquete Familiar</h3>
+                <p class="price" id="master-price">$95.99</p>
+                <ul>
+                
+                    <li>Cuentas para toda la familia a un precio reducido.</li>
+                </ul>
+                <button>Más Información</button>
+            </div>
+        </div>
+    </div>
+    <script src="java.js"></script>
+</body>
+</html>
